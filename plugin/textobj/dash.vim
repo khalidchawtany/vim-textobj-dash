@@ -2,7 +2,7 @@ if exists('g:loaded_textobj_dash')
   finish
 endif
 
-call textobj#user#plugin('quoted', {
+call textobj#user#plugin('dash', {
 \      '-': {
 \        '*sfile*': expand('<sfile>:p'),
 \        'select-a': 'a-',  '*select-a-function*': 's:select_dash_a',
